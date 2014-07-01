@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+       <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal" >
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="147dp"
+             android:layout_height="wrap_content"
+             android:text="@string/from"
+             android:textSize="20dp" />
+
+         <Spinner
+             android:id="@+id/spinner1"
+             android:layout_width="192dp"
+             android:layout_height="wrap_content"
+             android:entries="@array/country_arrays"
+        	 android:prompt="@string/country_prompt1" /> 
+         
+     </LinearLayout>
+     
+      <LinearLayout 
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+  			android:orientation="horizontal">
+  
+
+          	<TextView
+          	    android:id="@+id/textView2"
+          	    android:layout_width="147dp"
+          	    android:layout_height="wrap_content"
+          	    android:text="@string/to"
+          	    android:textSize="20dp" />
+          
+
+
+			 <Spinner
+			     android:id="@+id/spinner2"
+			     android:layout_width="192dp"
+			     android:layout_height="wrap_content"
+			 android:entries="@array/country_arrays"
+        	 android:prompt="@string/country_prompt2" /> 
+         
+          
+     </LinearLayout>
+     
+      <LinearLayout 
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+  			android:orientation="horizontal">
+  
+
+          	<TextView
+          	    android:id="@+id/textView3"
+          	    android:layout_width="147dp"
+          	    android:layout_height="wrap_content"
+          	    android:text="@string/day"
+          	    android:textSize="20dp" />
+          
+			 <Spinner
+        			android:id="@+id/spinner3"
+        			android:layout_width="192dp"
+          	        android:layout_height="wrap_content" 
+         android:entries="@array/days_arrays"
+        	 android:prompt="@string/country_prompt3" /> 
+                
+          
+     </LinearLayout>
+     
+      <LinearLayout 
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+  			android:orientation="horizontal">
+  
+
+          	<TextView
+          	    android:id="@+id/textView4"
+          	    android:layout_width="147dp"
+          	    android:layout_height="wrap_content"
+          	    android:text="@string/time"
+          	    android:textSize="20dp" />
+          
+			 <Spinner
+        			android:id="@+id/spinner4"
+        			android:layout_width="192dp"
+          	        android:layout_height="wrap_content" 
+          	        android:entries="@array/time_arrays"
+        	      android:prompt="@string/country_prompt4" /> 
+          
+          	               
+          
+     </LinearLayout>
+
+
+
+      <Button
+          android:id="@+id/button1"
+          android:text="View Path"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+        
+      </Button>  
+    
+    
+    
+</LinearLayout>

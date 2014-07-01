@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Welcome to INTELLIGENT TRAFFIC!</string>
+    <string name="app_name">ITS</string>
+ 
+    <string name="from">Source </string>
+    <string name="to">Destination </string>
+    <string name="time">Time </string>
+    <string name="day">Day </string>
+    <string name="button">Draw Path </string>
+    
+
+    <string name="country_prompt1">Choose source</string>
+    <string name="country_prompt2">Choose destination</string>
+    <string name="country_prompt3">Choose day</string>
+    <string name="country_prompt4">Choose time</string>
+    
+    <string-array name="country_arrays">
+        <item>BARAR</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>BATHAL</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+    
+    <string-array name="days_arrays">
+        <item>MONDAY</item>
+        <item>TUESDAY</item>
+        <item>WEDNESDAY</item>
+        <item>THURSDAY</item>
+        <item>FRIDAY</item>
+        <item>SATURDAY</item>
+        <item>SUNDAY</item>
+    </string-array>
+    
+	<string-array name="time_arrays">
+        <item>7:00-8:00</item>
+        <item>8:00-9:00</item>
+        <item>9:00-10:00</item>
+        <item>10:00-11:00</item>
+        <item>11:00-12:00</item>
+    </string-array>
+    
+    
+    
+</resources>
